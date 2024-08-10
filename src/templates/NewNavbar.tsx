@@ -8,7 +8,7 @@ export default function NavbarNew() {
   return (
     <nav className="sticky top-0 px-1 backdrop-blur-lg border-b border-neutral-700/80 blur-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://www.bmw.co.za/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG"
             className="h-10 w-10"

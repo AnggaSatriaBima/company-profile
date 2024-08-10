@@ -19,7 +19,7 @@ export default function CopyButton({
         copy(`${url}/blog/${slug}`);
         setCopied(true);
       }}
-      className="text-gray-500 dark:text-gray-400 bg-gray-200 hover:bg-gray-300 dark:hover:bg-gray-800 rounded-full p-[10px] inline-flex items-center justify-center"
+      className="text-gray-700  bg-gray-200 hover:bg-gray-300 rounded-full p-[10px] inline-flex items-center justify-center"
     >
       {copied ? (
         <span className="inline-flex items-center">

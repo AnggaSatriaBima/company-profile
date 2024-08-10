@@ -7,9 +7,7 @@ const Logo = (props: ILogoProps) => {
   const fontStyle = props.xl ? "text-3xl" : "text-xl";
 
   return (
-    <span
-      className={`inline-flex items-center text-gray-600 antialiased ${fontStyle}`}
-    >
+    <span className={`inline-flex items-center 70 antialiased ${fontStyle}`}>
       <img
         src="https://www.bmw.co.za/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG"
         alt=""

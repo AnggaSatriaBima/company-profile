@@ -11,7 +11,7 @@ export default function NavbarNew() {
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://www.bmw.co.za/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG"
-            className="h-10"
+            className="h-10 w-10"
             alt="Flowbite Logo"
           />
           <span className="self-center text-2xl whitespace-nowrap text-gray-600 font-serif">
@@ -102,7 +102,7 @@ export default function NavbarNew() {
               <a
                 href="/blog"
                 className={
-                  path == "blog"
+                  path == "/blog"
                     ? `block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:text-blue-700 `
                     : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-600`
                 }

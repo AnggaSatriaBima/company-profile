@@ -13,7 +13,7 @@ const Logo = (props: ILogoProps) => {
       <img
         src="https://www.bmw.co.za/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG"
         alt=""
-        className="h-12 mx-2"
+        className="h-12 mx-2 w-12"
       />
       {AppConfig.site_name}
     </span>

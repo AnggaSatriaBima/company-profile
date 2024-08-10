@@ -1,12 +1,12 @@
 const Footer = () => (
   <footer>
-    <div className="mx-auto w-full mt-[10rem] lg:py-10 ">
+    <div className="mx-auto w-full mt-[10rem] p-3 lg:py-10 ">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <a href="#" className="flex items-center">
             <img
               src="https://www.bmw.co.za/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG"
-              className="h-8 me-3"
+              className="h-8 me-3 w-8"
               alt="FlowBite Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap">

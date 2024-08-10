@@ -7,7 +7,7 @@ export default async function Home() {
   const blogs = await getBlogs();
   return (
     <Wrapper>
-      <div className="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-2">
+      <div className="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-2 mt-6">
         {blogs.map((items: IBlogs) => {
           return (
             <CardBlog

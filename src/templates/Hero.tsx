@@ -6,9 +6,10 @@ const Hero = () => {
     <div className="justify-center w-full">
       <video
         autoPlay
+        preload="none"
         loop
         muted
-        className=" border border-gray-500 shadow-sm shadow-orange-400 "
+        className=" shadow-md shadow-red-500 "
       >
         <source src={vid1} type="video/mp4" />
         Your browser does not support the video tag.

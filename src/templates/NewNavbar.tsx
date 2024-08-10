@@ -14,7 +14,7 @@ export default function NavbarNew() {
             className="h-10 w-10"
             alt="Flowbite Logo"
           />
-          <span className="self-center text-2xl whitespace-nowrap text-gray-600 font-serif">
+          <span className="self-center text-2xl whitespace-nowrap text-gray-700 font-serif">
             {AppConfig.site_name}
           </span>
         </a>
@@ -56,7 +56,7 @@ export default function NavbarNew() {
                 className={
                   path == "/"
                     ? `block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:text-blue-700 `
-                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-600`
+                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-700`
                 }
               >
                 Home
@@ -68,7 +68,7 @@ export default function NavbarNew() {
                 className={
                   path == "/about"
                     ? `block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:text-blue-700 `
-                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-600`
+                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-700`
                 }
               >
                 About Us
@@ -80,7 +80,7 @@ export default function NavbarNew() {
                 className={
                   path == "/product"
                     ? `block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:text-blue-700 `
-                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-600`
+                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-700`
                 }
               >
                 Products
@@ -92,7 +92,7 @@ export default function NavbarNew() {
                 className={
                   path == "/teams"
                     ? `block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:text-blue-700 `
-                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-600`
+                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-700`
                 }
               >
                 Teams
@@ -104,7 +104,7 @@ export default function NavbarNew() {
                 className={
                   path == "/blog"
                     ? `block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 md:text-blue-700 `
-                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-600`
+                    : `block py-2 px-3  rounded md:bg-transparent md:p-0 text-gray-700`
                 }
               >
                 Blog

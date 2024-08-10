@@ -1,4 +1,5 @@
 import { splitStr } from "@/helper/splitStr";
+import Image from "next/image";
 import Link from "next/link";
 
 interface ICardBlog {

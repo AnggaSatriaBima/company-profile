@@ -5,8 +5,6 @@ import { usePathname } from "next/navigation";
 export default function NavbarNew() {
   const path = usePathname();
   const [open, setOpen] = useState(false);
-  console.log(path, ">><><");
-
   return (
     <nav className="sticky top-0 px-1 backdrop-blur-lg border-b border-neutral-700/80 blur-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">

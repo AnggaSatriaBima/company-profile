@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavbarNew from "@/templates/NewNavbar";
+import { Footer } from "@/templates/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +18,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="https://www.bmw.co.za/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG" sizes="any" />
-      <body className={inter.className}>
-        <NavbarNew/>
+      <link
+        rel="icon"
+        href="https://www.bmw.co.za/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG"
+        sizes="any"
+      />
+      <body className={inter.className + " flex flex-col min-h-screen"}>
+        <NavbarNew />
         {children}
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }

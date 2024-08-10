@@ -3,7 +3,7 @@ const Footer = () => (
     <div className="mx-auto w-full mt-[10rem] p-3 lg:py-10 ">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
-          <a href="#" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img
               src="https://www.bmw.co.za/content/dam/bmw/common/images/logo-icons/BMW/BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG"
               className="h-8 me-3 w-8"
@@ -19,14 +19,14 @@ const Footer = () => (
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
               Resources
             </h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <ul className="text-gray-600 font-medium">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Classic
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Showroom
                 </a>
               </li>
@@ -36,14 +36,14 @@ const Footer = () => (
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
               Follow us
             </h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <ul className="text-gray-600 font-medium">
               <li className="mb-4">
-                <a href="#" className="hover:underline ">
+                <a href="/" className="hover:underline ">
                   Github
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Discord
                 </a>
               </li>
@@ -53,14 +53,14 @@ const Footer = () => (
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
               Legal
             </h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+            <ul className="text-gray-600 font-medium">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="/" className="hover:underline">
                   Terms &amp; Conditions
                 </a>
               </li>
@@ -70,17 +70,17 @@ const Footer = () => (
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <span className="text-sm text-gray-600 sm:text-center">
           © 2024{" "}
-          <a href="#" className="hover:underline">
+          <a href="/" className="hover:underline">
             Classic
           </a>
           . All Rights Reserved.
         </span>
         <div className="flex mt-4 sm:justify-center sm:mt-0">
           <a
-            href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            href="/"
+            className="text-gray-600 hover:text-gray-900 dark:hover:text-white"
           >
             <svg
               className="w-4 h-4"
@@ -97,8 +97,8 @@ const Footer = () => (
             <span className="sr-only">Facebook page</span>
           </a>
           <a
-            href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+            href="/"
+            className="text-gray-600 hover:text-gray-900 dark:hover:text-white ms-5"
           >
             <svg
               className="w-4 h-4"
@@ -111,8 +111,8 @@ const Footer = () => (
             <span className="sr-only">Discord community</span>
           </a>
           <a
-            href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+            href="/"
+            className="text-gray-600 hover:text-gray-900 dark:hover:text-white ms-5"
           >
             <svg
               className="w-4 h-4"
@@ -129,8 +129,8 @@ const Footer = () => (
             <span className="sr-only">Twitter page</span>
           </a>
           <a
-            href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+            href="/"
+            className="text-gray-600 hover:text-gray-900 dark:hover:text-white ms-5"
           >
             <svg
               className="w-4 h-4"
@@ -147,8 +147,8 @@ const Footer = () => (
             <span className="sr-only">GitHub account</span>
           </a>
           <a
-            href="#"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+            href="/"
+            className="text-gray-600 hover:text-gray-900 dark:hover:text-white ms-5"
           >
             <svg
               className="w-4 h-4"
